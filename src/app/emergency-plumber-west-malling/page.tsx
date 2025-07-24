@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import Link from "next/link"
 import { Clock, AlertCircle, CheckCircle, Zap, MapPin, Shield, Users } from "lucide-react"
 import { PhoneButton } from "@/components/phone-button"
-import { ReviewsSection } from "@/components/home/reviews-section"
+import { ReviewsSection } from "@/components/reviews-section"
 import { generateBreadcrumbSchema, generateServiceSchema } from "@/lib/structured-data"
 
 export const metadata: Metadata = {
@@ -29,12 +29,7 @@ export default function EmergencyPlumberWestMallingPage() {
   const serviceSchema = generateServiceSchema({
     name: "24/7 Emergency Plumber West Malling",
     description: "Emergency plumbing services in West Malling and Kings Hill. Available 24/7 with fast response times. No call-out charges.",
-    areaServed: ["West Malling", "Kings Hill", "Leybourne", "Larkfield", "East Malling", "Wateringbury"],
-    offers: {
-      price: "85",
-      priceCurrency: "GBP", 
-      priceSpecification: "First hour £85, then £24 per 15 minutes",
-    },
+    slug: "emergency-plumber-west-malling"
   })
 
   return (

@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import Link from "next/link"
 import { Phone, Clock, AlertCircle, CheckCircle, Zap, MapPin, Shield, Users } from "lucide-react"
 import { PhoneButton } from "@/components/phone-button"
-import { ReviewsSection } from "@/components/home/reviews-section"
+import { ReviewsSection } from "@/components/reviews-section"
 import { generateBreadcrumbSchema, generateServiceSchema } from "@/lib/structured-data"
 
 export const metadata: Metadata = {
@@ -29,12 +29,7 @@ export default function EmergencyPlumberKentPage() {
   const serviceSchema = generateServiceSchema({
     name: "24 Hour Emergency Plumber Kent",
     description: "24/7 emergency plumbing services covering all of Kent. Fast response times, no call-out charges.",
-    areaServed: ["Kent", "Sevenoaks", "West Malling", "Tonbridge", "Orpington", "Bromley", "Sidcup", "Bexley"],
-    offers: {
-      price: "85",
-      priceCurrency: "GBP",
-      priceSpecification: "First hour £85, then £24 per 15 minutes",
-    },
+    slug: "emergency-plumber-kent"
   })
 
   return (
