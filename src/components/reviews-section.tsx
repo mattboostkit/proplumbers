@@ -17,7 +17,7 @@ const reviews: Review[] = [
     location: "Sevenoaks, TN13",
     rating: 5,
     date: "2 weeks ago",
-    text: "Absolutely brilliant service! Our boiler broke down on a Sunday evening and Pro Plumbers had someone out within 45 minutes. Fixed the problem quickly and didn&apos;t charge any call-out fee. Highly recommend!",
+    text: "Absolutely brilliant service! Our boiler broke down on a Sunday evening and Pro Plumbers had someone out within 45 minutes. Fixed the problem quickly and didn't charge any call-out fee. Highly recommend!",
     service: "Emergency Boiler Repair"
   },
   {
@@ -26,7 +26,7 @@ const reviews: Review[] = [
     location: "West Malling, ME19",
     rating: 5,
     date: "1 month ago",
-    text: "Used Pro Plumbers for a complete bathroom renovation. The team was professional, tidy, and completed everything on schedule. The finish is excellent and they even helped with the design. Couldn&apos;t be happier!",
+    text: "Used Pro Plumbers for a complete bathroom renovation. The team was professional, tidy, and completed everything on schedule. The finish is excellent and they even helped with the design. Couldn't be happier!",
     service: "Bathroom Installation"
   },
   {
@@ -62,7 +62,7 @@ const reviews: Review[] = [
     location: "Sevenoaks, TN14",
     rating: 5,
     date: "3 weeks ago",
-    text: "Had a stubborn blocked drain that other plumbers couldn&apos;t fix. Pro Plumbers used a camera to find the issue and cleared it completely. Fair pricing and they explained everything. Will definitely use again.",
+    text: "Had a stubborn blocked drain that other plumbers couldn't fix. Pro Plumbers used a camera to find the issue and cleared it completely. Fair pricing and they explained everything. Will definitely use again.",
     service: "Drain Unblocking"
   }
 ]
