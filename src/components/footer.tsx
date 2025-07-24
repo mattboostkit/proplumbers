@@ -105,16 +105,17 @@ export function Footer() {
               </div>
             </div>
             <div className="mt-6">
-              <PhoneButton variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900" />
+              <PhoneButton variant="outline" className="border-white !text-white hover:bg-white hover:!text-gray-900" />
             </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-400">
-              © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
-            </p>
+            <div className="text-sm text-gray-400 text-center sm:text-left">
+              <p>© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
+              <p className="mt-1">Company Registration No: 12080269</p>
+            </div>
             <div className="flex gap-4 sm:gap-6 flex-wrap justify-center">
               <Link href="/careers" className="text-sm text-gray-400 hover:text-white">
                 Careers

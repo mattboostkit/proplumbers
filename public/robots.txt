@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://proplumbers.co.uk/sitemap.xml
+
+# Allow search engines to crawl all pages
+Disallow:
+
+# Crawl-delay for bots that respect it
+Crawl-delay: 1

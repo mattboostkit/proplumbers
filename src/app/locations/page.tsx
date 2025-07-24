@@ -64,7 +64,7 @@ export default function LocationsPage() {
             </p>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2495.7335831686854!2d0.18752731580423685!3d51.26944897959721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df4f3b3c3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sPro%20Plumbers%20Ltd!5e0!3m2!1sen!2suk!4v1643723000000!5m2!1sen!2suk"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2496.170057851115!2d0.19047050000000001!3d51.271188699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df4d88c66efc0b%3A0xc5f7fc488496f00f!2sPro%20Plumbers!5e0!3m2!1sen!2suk!4v1753378866713!5m2!1sen!2suk"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}

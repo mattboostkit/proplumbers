@@ -181,7 +181,7 @@ export default function TermsPage() {
             <h2 className="text-2xl font-bold mt-8 mb-4">14. Contact Information</h2>
             <div className="bg-gray-50 p-6 rounded-lg mb-8">
               <p className="mb-2"><strong>Pro Plumbers Ltd</strong></p>
-              <p className="mb-2">Company Registration: [Registration Number]</p>
+              <p className="mb-2">Company Registration: 12080269</p>
               <p className="mb-2">11 Lime Tree Walk</p>
               <p className="mb-2">Sevenoaks, Kent TN13 1YH</p>
               <p className="mb-2">Phone: <a href="tel:01732444555" className="text-primary hover:underline">01732 444555</a></p>
