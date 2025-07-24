@@ -36,7 +36,7 @@ export function EmergencyProcess() {
             Our Emergency Response Process
           </h2>
           <p className="text-lg text-gray-600 text-center mb-10">
-            From your call to problem solved - here's what to expect
+            From your call to problem solved - here&apos;s what to expect
           </p>
 
           <div className="grid md:grid-cols-4 gap-6">

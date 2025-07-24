@@ -2,10 +2,8 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { Menu, X, Phone } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Menu, X } from "lucide-react"
 import { PhoneButton } from "@/components/phone-button"
-import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 
 const navigation = [

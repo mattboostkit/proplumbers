@@ -1,7 +1,5 @@
 import { AlertCircle, Phone, Clock, MapPin } from "lucide-react"
 import { PhoneButton } from "@/components/phone-button"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
 
 interface EmergencyHeroProps {
   location: string
@@ -27,7 +25,7 @@ export function EmergencyHero({ location }: EmergencyHeroProps) {
 
           <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
             <p className="text-2xl font-bold text-red-600 mb-4">
-              🚨 We're on our way to {location}!
+              🚨 We&apos;re on our way to {location}!
             </p>
             <PhoneButton size="xl" className="mb-4" />
             <p className="text-sm text-gray-600">

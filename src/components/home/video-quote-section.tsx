@@ -1,4 +1,4 @@
-import { Video, MessageSquare, Clock, CheckCircle } from "lucide-react"
+import { Video, MessageSquare, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 

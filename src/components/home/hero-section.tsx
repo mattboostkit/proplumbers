@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle, Phone, Clock } from "lucide-react"
+import { ArrowRight, CheckCircle, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { PhoneButton } from "@/components/phone-button"
 import Link from "next/link"

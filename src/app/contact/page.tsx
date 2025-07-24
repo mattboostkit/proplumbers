@@ -38,7 +38,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-xl text-gray-600">
               Get in touch for a free quote or emergency assistance. 
-              We're available 24/7 to help with all your plumbing needs.
+              We&apos;re available 24/7 to help with all your plumbing needs.
             </p>
           </div>
 

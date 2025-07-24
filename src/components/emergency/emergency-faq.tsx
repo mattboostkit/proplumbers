@@ -85,7 +85,7 @@ export function EmergencyFAQ({ location }: EmergencyFAQProps) {
               Still Have Questions?
             </h3>
             <p className="text-gray-700 mb-6">
-              Don't wait - call us now for immediate assistance
+              Don&apos;t wait - call us now for immediate assistance
             </p>
             <PhoneButton size="lg" />
           </div>

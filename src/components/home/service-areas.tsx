@@ -81,7 +81,7 @@ export function ServiceAreas() {
 
         <div className="text-center">
           <p className="text-gray-600 mb-4">
-            Can't see your area? We may still be able to help.
+            Can&apos;t see your area? We may still be able to help.
           </p>
           <Button size="lg" asChild>
             <Link href="/locations">

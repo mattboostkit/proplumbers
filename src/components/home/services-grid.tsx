@@ -6,13 +6,12 @@ import {
   Bath, 
   Building, 
   AlertCircle,
-  Package,
-  ClipboardCheck
+  Package
 } from "lucide-react"
 import { services } from "@/config/site"
 import { Button } from "@/components/ui/button"
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   "alert-circle": AlertCircle,
   "flame": Flame,
   "wrench": Wrench,

@@ -42,7 +42,7 @@ export function WhyChooseUs() {
             Why Choose Pro Plumbers?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            With over 15 years of experience, we're the trusted choice for plumbing 
+            With over 15 years of experience, we&apos;re the trusted choice for plumbing 
             and heating services in Sevenoaks and Kent.
           </p>
         </div>

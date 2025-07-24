@@ -24,7 +24,7 @@ export function ContactForm() {
       <div className="bg-green-50 border border-green-200 rounded-lg p-8 text-center">
         <h3 className="text-2xl font-bold text-green-800 mb-2">Thank You!</h3>
         <p className="text-green-700">
-          We've received your message and will get back to you within 1 hour during business hours, 
+          We&apos;ve received your message and will get back to you within 1 hour during business hours, 
           or immediately for emergencies.
         </p>
       </div>
@@ -153,7 +153,7 @@ export function ContactForm() {
 
         <p className="text-xs text-gray-500 text-center">
           By submitting this form, you agree to our privacy policy. 
-          We'll only use your information to respond to your enquiry.
+          We&apos;ll only use your information to respond to your enquiry.
         </p>
       </form>
     </div>

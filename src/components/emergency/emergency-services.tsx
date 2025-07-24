@@ -105,7 +105,7 @@ export function EmergencyServices({ location }: EmergencyServicesProps) {
 
           <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 text-center">
             <h3 className="text-2xl font-bold mb-4">
-              Don't See Your Emergency Listed?
+              Don&apos;t See Your Emergency Listed?
             </h3>
             <p className="text-lg mb-6">
               Call us anyway - we handle ALL plumbing emergencies in {location}

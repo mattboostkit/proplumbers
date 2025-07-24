@@ -31,7 +31,7 @@ export function ContactInfo() {
             {siteConfig.email}
           </a>
           <p className="text-sm text-gray-600 mt-1">
-            We'll respond within 1 hour during business hours
+            We&apos;ll respond within 1 hour during business hours
           </p>
         </div>
 
