@@ -51,16 +51,39 @@ export default function LocationsPage() {
         </div>
       </section>
 
-      {/* Coverage Map Placeholder */}
+      {/* Google Business Profile Map */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="bg-gray-100 rounded-lg p-8 text-center">
-              <MapPin className="h-16 w-16 text-primary mx-auto mb-4" />
-              <p className="text-lg font-medium">Interactive Coverage Map</p>
-              <p className="text-gray-600">
-                ⚠️ Placeholder for interactive map showing all service areas
-              </p>
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
+              Find Us on Google Maps
+            </h2>
+            <p className="text-lg text-gray-600 text-center mb-8 max-w-3xl mx-auto">
+              Visit our main office in Sevenoaks or view our service coverage across Kent 
+              and South East London.
+            </p>
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2495.7335831686854!2d0.18752731580423685!3d51.26944897959721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df4f3b3c3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sPro%20Plumbers%20Ltd!5e0!3m2!1sen!2suk!4v1643723000000!5m2!1sen!2suk"
+                width="100%"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Pro Plumbers Location on Google Maps"
+                className="w-full"
+              ></iframe>
+            </div>
+            <div className="mt-4 text-center">
+              <a 
+                href="https://www.google.com/maps/place/Pro+Plumbers+Ltd/@51.2694479,0.1875273,17z"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline font-medium"
+              >
+                View larger map →
+              </a>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { siteConfig, services, locations } from "@/config/site"
 import { PhoneButton } from "@/components/phone-button"
-import { MapPin, Clock, Shield, Award } from "lucide-react"
+import { MapPin, Clock, Shield, Award, Facebook, Instagram } from "lucide-react"
 
 export function Footer() {
   return (
@@ -25,6 +25,27 @@ export function Footer() {
                 <Clock className="h-5 w-5" />
                 <p className="text-sm text-gray-300">24/7 Emergency Service</p>
               </div>
+            </div>
+            {/* Social Media */}
+            <div className="mt-4 flex gap-3">
+              <a
+                href="https://www.facebook.com/people/Pro-Plumbers/100090551557515/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-800 hover:bg-gray-700 p-2 rounded-lg transition-colors"
+                aria-label="Follow us on Facebook"
+              >
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/proplumbersltd/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-800 hover:bg-gray-700 p-2 rounded-lg transition-colors"
+                aria-label="Follow us on Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
             </div>
           </div>
 
@@ -94,7 +115,13 @@ export function Footer() {
             <p className="text-sm text-gray-400">
               © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
             </p>
-            <div className="flex gap-6">
+            <div className="flex gap-4 sm:gap-6 flex-wrap justify-center">
+              <Link href="/careers" className="text-sm text-gray-400 hover:text-white">
+                Careers
+              </Link>
+              <Link href="/finance" className="text-sm text-gray-400 hover:text-white">
+                Finance
+              </Link>
               <Link href="/privacy" className="text-sm text-gray-400 hover:text-white">
                 Privacy Policy
               </Link>
