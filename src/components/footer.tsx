@@ -117,6 +117,9 @@ export function Footer() {
               <p className="mt-1">Company Registration No: 12080269</p>
             </div>
             <div className="flex gap-4 sm:gap-6 flex-wrap justify-center">
+              <Link href="/pricing" className="text-sm text-gray-400 hover:text-white">
+                Pricing
+              </Link>
               <Link href="/careers" className="text-sm text-gray-400 hover:text-white">
                 Careers
               </Link>
